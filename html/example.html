@@ -62,18 +62,6 @@
     function ReplaceElements() {
         document.getElementById("validxhtml").href = "http://validator.w3.org/check?uri=" + document.location;
         document.getElementById("validcss").href = "http://jigsaw.w3.org/css-validator/validator?uri=http://" + document.location.hostname + document.location.pathname;
-        var a = document.createElement("img");
-        a.setAttribute("alt", "A picture of me.");
-        var b = Math.random();
-        if (b < 0.1) {
-            a.src = "images/mugshot.jpg"
-        } else {
-            if (b < 0.3) {
-                a.src = "images/mugshot2.png"
-            } else {
-                a.src = "images/mugshot3.jpg"
-            }
-        }
         document.getElementById("mugshotarea").appendChild(a)
     }
     /*! ]]>*/
