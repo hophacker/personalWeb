@@ -32,6 +32,7 @@ require_once("include/config.php");
             height: 225px;
             margin: 1em;
             margin-top: 0;
+            padding-right: 30px;
         }
 
         #photoinfo img {
