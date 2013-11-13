@@ -66,7 +66,7 @@ require_once("include/config.php");
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
-        var imageTotal = 5;
+        var imageTotal = 7;
         function changeImage(){
             $("#photoinfo img").prop("src","image/jie" + imageNum + ".jpg");
             imageNum = (imageNum + 1) % imageTotal;
