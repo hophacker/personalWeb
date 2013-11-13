@@ -15,11 +15,9 @@ require_once("include/config.php");
             margin: 0 auto;
             font-size: 18px;
         }
-
         #name {
             text-align: center;
         }
-
         #info {
             height: 300px;
         }
@@ -67,7 +65,7 @@ require_once("include/config.php");
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
-        var imageTotal = 6;
+        var imageTotal = 5;
         function changeImage(){
             $("#photoinfo img").prop("src","image/jie" + imageNum + ".jpg");
             imageNum = (imageNum + 1) % imageTotal;
@@ -112,12 +110,18 @@ require_once("include/config.php");
         <img src="" alt="Am I handsome?"/>
     </div>
 </div>
-<div id="interests" class="section">
+<div id="researchinterest" class="section">
+    <div class="label">Research Interests</div>
+    <div>
+        My research interests include systems, database, security, cryptography. I have finished or currently work on a variety of projects, including:
+    </div>
+</div>
+<div id="hobby" class="section">
     <div class="label">
-        Interests
+        Hobbies
     </div>
     <div>
-        First of all, I'm a programmer. I definitely love programming and I'll try every aspect of it.<br/>
+        I definitely love programming and it's always my pleasure to try every aspect of it.<br/>
         To date, I've programmed with
         <span class="language">Pascal,</span>
         <span class="language">C,</span>
@@ -150,6 +154,8 @@ require_once("include/config.php");
         I define my life task be to extract value from data and to protect data.
     </div>
 </div>
+
+
 <br/>
 
 
