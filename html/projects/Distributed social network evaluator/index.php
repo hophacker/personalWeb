@@ -19,7 +19,6 @@ $header = "Distributed social network evaluator";
     </style>
 </head>
 <body>
-
 <div class="headerText">
     <?=$header?>
 </div>
