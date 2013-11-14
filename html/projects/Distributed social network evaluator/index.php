@@ -5,20 +5,25 @@
  * Date: 11/13/13
  * Time: 4:00 PM
  */
-$title = "Distributed social network evaluator";
+$root =  $_SERVER["DOCUMENT_ROOT"];
+require_once("$root/include/Style.php");
+$header = "Distributed social network evaluator";
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?=$title?></title>
+    <title><?=$header?></title>
     <link href="../projects.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+        <?=Style::format()?>
+    </style>
 </head>
 <body>
 
-<div class="title">
-    <?=$title?>
+<div class="headerText">
+    <?=$header?>
 </div>
-<div class="goal">
+<div class="section">
     The goal of this research project has two folds:
     <ol>
         <li>
@@ -65,7 +70,7 @@ $title = "Distributed social network evaluator";
                     Upon last level of IPs receiving new work, they will crawl new information. When the newly crawled
                     information approaches some limit, these IPs will pack the data and send the data back to upper level
                     IPs. When upper level IPs get new data they will combine them and send back to IPs one level up, and so on.<br/>
-                    Upon master IP receiving new data, it will divide the data and send them to all the slaves one level down.<b/>
+                    Upon master IP receiving new data, it will divide the data and send them to all the slaves one level down.<br/>
                     Here is one picture which describe the workflow of all the IPs.<br/>
                     <img src="master-slave.png" alt="malti-level-cooperation"/>
                 </li>
@@ -75,11 +80,15 @@ $title = "Distributed social network evaluator";
             There are many issues in this project remain unsolved.
         </li>
 
-        With the help of <a href='//avirubin.com/'>Pro.Avi Rubin</a> and staff from the startup company <a href='//riskive.com/'>Riskive</a>.
+        With the help of <a href='//avirubin.com/'>Pro.Avi Rubin</a> and staff from the startup company <a hreggf='//riskive.com/'>Riskive</a>.
         Our team designed this project aiming to
 
     </ol>
 
 </div>
+<div>
+
+</div>
+
 </body>
 </html>

@@ -9,19 +9,19 @@ require_once("include/config.php");
     <!-- <link rel="stylesheet" type="text/css" href="css/main.css"/> -->
 
     <style type="text/css">
+        <?=style::format()?>
         .section {
             width: 800px;
             display: block;
-            margin: 0 auto;
+            margin: 10px auto;
             font-size: 18px;
         }
         #name {
             text-align: center;
         }
         #info {
-            height: 300px;
+            height: 275px;
         }
-
         #textinfo {
             width: 400px;
             float: left;
@@ -30,7 +30,6 @@ require_once("include/config.php");
         #photoinfo {
             float: right;
             height: 225px;
-            margin: 1em;
             margin-top: 0;
             padding-right: 30px;
         }
@@ -44,8 +43,6 @@ require_once("include/config.php");
             padding-bottom: 5px;
         }
 
-        <?=Style::labelClass()?>
-        <?=Style::headerClass()?>
         .language {
             font-size: <?=Style::$size['SMALL']?>;
             color: <?=Style::$color['muse']?>;
@@ -87,13 +84,13 @@ require_once("include/config.php");
     </script>
 </head>
 <body>
-<div id="name" class="header">
+<div id="name" class="headerText">
     Jie(John) Feng
 </div>
 
 <div id="info" class="section">
-    <div id="textinfo">
-        <div class="label">
+    <div id="textinfo" >
+        <div class="sectionText">
             Contact
         </div>
         <ul>
@@ -112,13 +109,13 @@ require_once("include/config.php");
     </div>
 </div>
 <div id="researchinterest" class="section">
-    <div class="label">Research Interests</div>
+    <div class="sectionText">Research Interests</div>
     <div>
         My research interests include systems, database, security, cryptography. I have finished or currently work on a variety of projects, including:
     </div>
 </div>
 <div id="hobby" class="section">
-    <div class="label">
+    <div class="sectionText">
         Hobbies
     </div>
     <div>
@@ -161,7 +158,7 @@ require_once("include/config.php");
 
 
 <div id="links" class="section">
-    <div class="label">
+    <div class="sectionText">
         Links
     </div>
     <ul>
