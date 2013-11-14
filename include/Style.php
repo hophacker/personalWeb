@@ -13,7 +13,7 @@ class Style
         "life" => "#009855",
         "passion" => "#DC4632",
         "header" => "#009855",
-        "section" => "#009855",
+        "section" => "#DC4632",
         "secsec" => "#009855",
         "label" => "#009855"
     );
