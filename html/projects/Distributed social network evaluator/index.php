@@ -22,6 +22,7 @@ $header = "Distributed social network evaluator";
 <div class="headerText">
     <?=$header?>
 </div>
+
 <div class="section">
     The goal of this research project has two folds:
     <ol>
