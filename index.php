@@ -8,7 +8,6 @@ require_once("include/resume.php")
 <head>
     <title>Jie's Personal Website</title>
     <!-- <link rel="stylesheet" type="text/css" href="css/main.css"/> -->
-
     <style type="text/css">
         <?=style::format()?>
         .section {
