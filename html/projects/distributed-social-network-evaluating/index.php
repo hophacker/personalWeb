@@ -6,7 +6,7 @@
  * Time: 4:00 PM
  */
 $root =  $_SERVER["DOCUMENT_ROOT"];
-require_once("$root/include/style.php");
+require_once("$root/include/stylefeng.php");
 $header = "Social network evaluating";
 ?>
 <!DOCTYPE html>
