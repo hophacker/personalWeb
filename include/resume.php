@@ -65,7 +65,7 @@ class resume {
         )
     );
     public static function projects(){
-        global $web_name;
+        global $document_root;
         $out =
 <<<EOF
 <div id="projectExperience" class="section">
@@ -78,7 +78,7 @@ EOF;
 <<<EOF
     <div class="project">
         <div class="title">{$p["title"]}</div>
-        <a href="/$web_name/{$p["detailUrl"]}">Detail</a>
+        <a href="{$p["detailUrl"]}">Detail</a>
     </div>\n
 EOF;
         }

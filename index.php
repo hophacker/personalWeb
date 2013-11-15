@@ -16,9 +16,11 @@ require_once("include/resume.php")
             margin: 10px auto;
             font-size: 18px;
         }
+
         #info {
             height: 275px;
         }
+
         #textinfo {
             width: 400px;
             float: left;
@@ -41,15 +43,15 @@ require_once("include/resume.php")
         }
 
     </style>
-    <?style::link("css/main.css")?>
+    <?=style::link("css/main.css")?>
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
         var imageTotal = 7;
-        function changeImage(){
-            $("#photoinfo img").prop("src","image/jie" + imageNum + ".jpg");
+        function changeImage() {
+            $("#photoinfo img").prop("src", "image/jie" + imageNum + ".jpg");
             imageNum = (imageNum + 1) % imageTotal;
-            setTimeout(function(){
+            setTimeout(function () {
                 changeImage();
             }, 5000);
         }
@@ -65,7 +67,7 @@ require_once("include/resume.php")
 </div>
 
 <div id="info" class="section">
-    <div id="textinfo" >
+    <div id="textinfo">
         <div class="sectionText">
             Contact
         </div>
@@ -91,7 +93,7 @@ require_once("include/resume.php")
     </div>
 </div>
 
-<?=resume::projects()?>
+<?= resume::projects() ?>
 
 <div id="hobby" class="section">
     <div class="sectionText">
