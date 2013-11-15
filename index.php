@@ -1,6 +1,7 @@
 <?php
-require_once("include/Style.php");
+require_once("include/style.php");
 require_once("include/config.php");
+require_once("include/resume.php")
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,21 +42,22 @@ require_once("include/config.php");
         }
 
         .language {
-            font-size: <?=Style::$size['SMALL']?>;
-            color: <?=Style::$color['muse']?>;
+            font-size: <?=style::$size['SMALL']?>;
+            color: <?=style::$color['muse']?>;
         }
         .name {
-            font-size: <?=Style::$size['SMALL']?>;
-            color: <?=Style::$color['muse']?>;
+            font-size: <?=style::$size['SMALL']?>;
+            color: <?=style::$color['muse']?>;
             font-style: italic;
             font-weight: bold;
         }
 
         .string {
-            font-size: <?=Style::$size['SMALL']?>;
-            color: <?=Style::$color['muse']?>;
+            font-size: <?=style::$size['SMALL']?>;
+            color: <?=style::$color['muse']?>;
         }
     </style>
+    <?style::link("css/main.css")?>
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
@@ -69,12 +71,6 @@ require_once("include/config.php");
         }
         $(document).ready(function () {
             var b = Math.random();
-            var src;
-            if (b < 0.3) {
-                src = "image/jie1.jpg";
-            } else {
-                src = "image/jie2.jpg";
-            }
             changeImage();
         });
     </script>
@@ -109,6 +105,14 @@ require_once("include/config.php");
     <div>
         My research interests include systems, database, security, cryptography. I have finished or currently work on a variety of projects, including:
     </div>
+</div>
+<div id="project" class="section">
+    <div class="sectionText">
+        Projects
+    </div>
+    <?php
+    resume::projects();
+    ?>
 </div>
 <div id="hobby" class="section">
     <div class="sectionText">

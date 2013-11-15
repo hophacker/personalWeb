@@ -7,7 +7,7 @@
  */
 
 class resume {
-    public $projects = array(
+    public static $projects = array(
         array("title" => "Distributed social network evaluator",
             "people" => "Jie Feng",
             "time" => "2013.9-Now",
@@ -63,4 +63,15 @@ class resume {
             "detailUrl" => ""
         )
     );
+    public static function projects(){
+        foreach (self::$projects as $p){
+            print  <<<EOF
+<div class='project'>
+    <div class="title">{$p["title"]}</div>
+    <a href='{$p["detailUtl"]}'>Detail</a>
+</div>\n
+EOF;
+
+        }
+    }
 }

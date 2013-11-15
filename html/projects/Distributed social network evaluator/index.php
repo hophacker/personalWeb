@@ -6,7 +6,7 @@
  * Time: 4:00 PM
  */
 $root =  $_SERVER["DOCUMENT_ROOT"];
-require_once("$root/include/Style.php");
+require_once("$root/include/style.php");
 $header = "Social network evaluating";
 ?>
 <!DOCTYPE html>
@@ -76,20 +76,15 @@ $header = "Social network evaluating";
                     <img src="master-slave.png" alt="malti-level-cooperation"/>
                 </li>
             </ul>
-            To date, we have implemented a distributed crawler with the ability to crawl more than 400,000 rows of user data in the
-            social networking platform, <a href="working distributely ">Sina Weibo</a>  in one hour. <b/>
-            There are many issues in this project remain unsolved.
+            To date, we have implemented a distributed crawler with the ability to crawl more than 400,000 rows of user data on the
+            social networking platform, <a href="working distributely ">Sina Weibo</a>,  in one hour.
+            However, there are still many issues in this project remain unsolved.
         </li>
         <li>
-            With the help of <a href="http://avirubin.com/">Pro.Avi Rubin</a>
-            Evaluating existing social networking platform, including the ability to
+            The second task of this project is to evaluate existing social networking platform, including the ability to
             gather personal information, the prevalence of attacks, and the identification and classification
-            of bad actors/profiles and threats.
+            of bad actors/profiles and threats, with the help of <a href="http://avirubin.com/">Pro.Avi Rubin</a> and staff from the startup company <a hreggf='//riskive.com/'>Riskive</a>.
         </li>
-
-        With the help of <a href='//avirubin.com/'>Pro.Avi Rubin</a> and staff from the startup company <a hreggf='//riskive.com/'>Riskive</a>.
-        Our team designed this project aiming to
-
     </ol>
 
 </div>
