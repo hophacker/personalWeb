@@ -9,3 +9,4 @@
 define("web_root", $_SERVER["HTTP_HOST"] . "/personalWeb");
 $web_root = $_SERVER["HTTP_HOST"] . "/personalWeb";
 $web_name = "personalWeb";
+

@@ -65,6 +65,6 @@ EOF;
         self::secsecClass();
     }
     public static function link($url){
-        print  "<link href='http://" . web_root . "/$url' type='text/css' rel='stylesheet'/>\n";
+        print  "<link href='$url' type='text/css' rel='stylesheet'/>\n";
     }
 }
