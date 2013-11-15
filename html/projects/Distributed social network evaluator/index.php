@@ -7,7 +7,7 @@
  */
 $root =  $_SERVER["DOCUMENT_ROOT"];
 require_once("$root/include/Style.php");
-$header = "Distributed social network evaluator";
+$header = "Social network evaluating";
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,60 +23,68 @@ $header = "Distributed social network evaluator";
     <?=$header?>
 </div>
 <div class="section">
-    The goal of this research project has two folds:
+    <div class="sectionText">
+        The goal of this research project has two folds:
+    </div>
     <ol>
         <li>
-            Evaluate existing social networking platform, including  the ability to
-            gather personal information, the prevalence of attacks, and the identification and classification
-            of bad actors/profiles and threats.
-        </li>
-        <li>
-            Build a crawler which can gather information efficiently when social networking platform
+            Building a crawler which can gather information efficiently when social networking platform
             putting strict restrictions there. There are several issues related to it:
             <ul>
                 <li>
-                    Is there any method to bypass such restrictions? To be specific, if the social networking limits your
-                    ability of gathering some specific information(like user information) from one API, can you get that
-                    information by using other APIs which has weaker limitation? Is there any method which does not
-                    use any API but still can get that information more efficiently?
+                    Is there any method to bypass such restrictions? For example, if the social networking platform limits our
+                    ability of gathering some specific information(like user information) from one group of APIs, can we get that
+                    information by using other APIs(the API designer did not even know these APIs can be used to get such information)
+                    which has weaker limitation? What if our crawler crawl directly on the web page, thus avoid using APIs.
+                    Then, will it be more efficient to get that kind of information?
                 </li>
                 <li>
-                    If such restrictions can not be bypassed, how to optimize our crawler's work? That is, for example,
-                    if the social platform has a limitation of the number of user data one can get in a single request,
-                    how to make our crawler get as much new and valuable information as possible in a request by analysing
-                    the data already got?
+                    If such restrictions can not be bypassed, how to optimize the crawler's efficiency? That is, for instance,
+                    if the social networking platform has a limitation of the number of user's profile information the API can get in a single request,
+                    how to make our crawler get as much information as possible from long time period of view?
+                    What technique can we use to optimize such work?
                 </li>
                 <li>
-                    The issue is more difficult to solve. Since social networking platform always has IP restriction,
-                    which limits the number of requests one IP can do in a period of time. The most obvious solution
-                    to make more requests is to use more IPs and to deploy distributed crawlers. Here comes the issue
-                    which is how to synchronize the work of distributed crawlers? For a simple case, if two IPs request
-                    API request such as getFriends() for the same person, then their work duplicated thus efficiency is lost.
+                    Since social networking platform always has IP restriction, which limits the number of requests one IP can do in a period of time.
+                    This largely deteriorates the efficiency of our crawler.
+                    The most obvious solution to make more requests is to use more IPs and to deploy distributed crawlers.
+                    Here comes the issue that how to synchronize the work of crawlers from different IPs?
+                    For example, if the API getFriends is used to get some user's friends, then if two crawlers of different IPs request this API for the same person, their work will be duplicated thus efficiency is lost.
                     The problem actually is much more complicated in real situation.
-                    One naive implementation is to let all IPs use one centralized database for all the query and insertion.
-                    Programming work for this implementation is fairly easy,but the database become blocked if the requests
-                    of all the IPs exceed the processing ability of this centralized database.
-                    Our group looked for new techniques,one technique we have found but haven't implemented is what we
-                    call  "multi-level-cooperation".<br/>
+                    One naive implementation is to let all IPs use one centralized database for all database operations.
+                    Programming work for this implementation is fairly easy, but the database become blocked if the requests
+                    of all the IPs exceed the processing capability of this centralized database.
+                    Our group looked for several new techniques,one technique we have found but haven't fully implemented is what we
+                    call  "multi-level-crawler".<br/>
                     Generally, in this technique, all the IPs are divided into different levels.<br/>
-                    On top of the level, there is the "Master" IP. It's task is to divide the work and then send each piece
-                    of the work to different IPs one level down, named "Slave-1". Then "Slave-1" divide the work and
-                    send each piece of the work to "Slave-2". The IPs in the last level do the real crawling job. <br/>
-                    It's obvious to see the IPs in the last level will receive different piece of work, thus avoid duplicating.<br/>
-                    One thing to mention is that, the work the upper IP sends is a combined group of data, which is different
-                    from normal SQL query one at a time, thus boost the efficiency of communication between different levels
-                    of IPs.<br/>
-                    Upon last level of IPs receiving new work, they will crawl new information. When the newly crawled
-                    information approaches some limit, these IPs will pack the data and send the data back to upper level
-                    IPs. When upper level IPs get new data they will combine them and send back to IPs one level up, and so on.<br/>
-                    Upon master IP receiving new data, it will divide the data and send them to all the slaves one level down.<br/>
-                    Here is one picture which describe the workflow of all the IPs.<br/>
+                    On top of the level, there is the "Master", whose task is to divide the work and then send each piece
+                    of the work to different IPs one level down. All the IPs at the this level are named "Slave-1".
+                    Each "Slave-1" divides the work received from "Master" and sends each piece of the work to "Slave-2" at the third level.<br/>
+                    And so on...
+                    The IPs in the last level do the real crawling work. <br/>
+                    It's obvious to see that the IPs in the last level will receive different piece of work, thus avoid duplicating.<br/>
+                    One thing to mention is that, the work the upper IP sends to lower level is a combined group of data, which is different
+                    from normal SQL query one at a time, thus boost the efficiency of communication between different levels of IPs.<br/>
+
+                    Upon last level of IPs receiving new work, they will crawl new data. When the newly crawled
+                    data approaches some threshold, these IPs will pack the data and send the data back to upper level
+                    IPs. When upper level IPs get new data, they will combine them and send back to IPs one level up, and so on.<br/>
+                    Upon master IP receiving new data, it will divide the data and send them to all the "Slave-1"s again<br/>
+
+
+                    Here is one picture which describes the workflow of all the IPs.<br/>
                     <img src="master-slave.png" alt="malti-level-cooperation"/>
                 </li>
             </ul>
             To date, we have implemented a distributed crawler with the ability to crawl more than 400,000 rows of user data in the
             social networking platform, <a href="working distributely ">Sina Weibo</a>  in one hour. <b/>
             There are many issues in this project remain unsolved.
+        </li>
+        <li>
+            With the help of <a href="http://avirubin.com/">Pro.Avi Rubin</a>
+            Evaluating existing social networking platform, including the ability to
+            gather personal information, the prevalence of attacks, and the identification and classification
+            of bad actors/profiles and threats.
         </li>
 
         With the help of <a href='//avirubin.com/'>Pro.Avi Rubin</a> and staff from the startup company <a hreggf='//riskive.com/'>Riskive</a>.

@@ -24,7 +24,7 @@ font-size:30px;
 font-weight: bolder;
 }
 .group{
-   margin: 20px;
+   margin: 0 40px 40px 20px;
 }
 .description:before{
   content: "Description:   ";
@@ -54,25 +54,87 @@ font-weight: bolder;
   content: "Moderator:   ";
   font-weight: bold;
 }
+.event{
+    margin-bottom: 16px;
+}
+.time, .place, .abstract, .speaker, .description, .moderator{
+    margin-bottom: 10px;
+}
 
 </style>
 <div class="seperator1">Expecting</div>
 
+<div class="group">
+    <div class="event">EPA Capstone Project and the Codebreaker Challenge</div>
+    <div class="time">1:00-2:30, November 15</div>
+    <div class="place">Wyman 400</div>
+    <div class="abstract">
+        The National Security Agency (NSA) will present an information session on the capstone project proposals and a walk through of the solution to the NSA Codebreaker Challenge (http://isi.jhu.edu/institute/codebreaker).
+    </div>
+    <div class="speaker">
+        <span class="name">Julie Dhanraj</span>
+        is Senior Strategist and Security Education Academic Liaison (SEAL) from the NSA.
+        In this role, Ms. Dhanraj is responsible for establishing, fostering and maintaining Cyber relationships with academia.
+        Ms. Dhanraj has a bachelor's degree ('85) in Computer Science from the University of Maryland, College Park and a master's degree ('90) in Computer Science from Johns Hopkins University.
+        <span class="name">Mark Landriscina </span>
+        is a computer scientist and associate SEAL from the NSA.  Mr. Landriscina has a master's degree in Computer Science from Johns Hopkins University ('09) and a master's degree in Telecommunications and Computers from George Washington University ('03).
+
+
+    </div>
+    <div class="moderator">JHUISI</div>
+</div>
 
 <div class="group">
-<div class="event">Cluster Management at Google</div>
-<div class="time"> 1:00-2:30, November 8, Friday</div>
-<div class="place">Wyman 400</div>
+    <div class="event">The Online Revolution: Learning without Limits</div>
+    <div class="time">Wednesday, November 20, 2013 at 3:00 pm</div>
+    <div class="place">Hodson Hall 110</div>
+    <div class="abstract">
+        We are at the cusp of a major transformation in higher education.
+        In the past year, we have seen the advent of MOOCs - massively open online classes (MOOCs) - top-quality courses from the best universities offered for free.
+        These courses exploit technology to provide a real course experience to students, including video content, interactive exercises with meaningful feedback, using both auto-grading and peer-grading, and rich peer-to-peer interaction around the course materials.
+        We now see MOOCs from dozens of top universities, offering courses to millions of students from every country in the world.
+        The courses start from bridge/gateway courses all the way through graduate courses, and span a range of topics including computer science, business, medicine, science, humanities, social sciences, and more.
+        In this talk, I'll discuss this far-reaching experiment in education, including some examples and preliminary analytics.
+        I'll also discuss why we believe this model can support an improved learning experience for on-campus students, via blended learning, and provide unprecedented access to education to millions of students around the world.
+    </div>
+    <div class="speaker">
+        <span class="name">Daphne Koller</span>
+        is the Rajeev Motwani Professor of Computer Science at Stanford University and the co-founder and co-CEO of Coursera, a social entrepreneurship company that works with the best universities to connect anyone around the world with the best education, for free.
+        Coursera is the leading MOOC (Massive Open Online Course) platform, and has partnered with dozens of the world’s top universities to offer hundreds of courses in a broad range of disciplines to millions of students, spanning every country in the world.
+        In her research life, she works in the area of machine learning and probabilistic modeling, with applications to systems biology and personalized medicine.
+        She is the author of over 200 refereed publications in venues that span a range of disciplines, and has given over 15 keynote talks at major conferences.
+        She is the recipient of many awards, which include the Presidential Early Career Award for Scientists and Engineers (PECASE), the MacArthur Foundation Fellowship, the ACM/Infosys award, and membership in the US National Academy of Engineering.
+        She was recently recognized as one of Time Magazine’s 100 Most Influential People for 2012.
+        She is also an award winning teacher, who pioneered in her Stanford class many of the ideas that underlie the Coursera user experience.
+        She received her BSc and MSc from the Hebrew University of Jerusalem, and her PhD from Stanford in 1994.
+    </div>
+    <div class="moderator">Computer Science</div>
+</div>
+
+<div class="group">
+<div class="event">Faster Algorithms for Sparse Fourier Transform</div>
+<div class="time">Thursday, November 21, 2013 at 10:45 a.m.</div>
+<div class="place">Hackerman Hall B-17</div>
 <div class="abstract">
-Cluster management is the term that Google uses to describe how we control the computing infrastructure in our datacenters that supports almost all of our external services.  It includes allocating resources to different applications on our fleet of computers, looking after software installations and hardware, monitoring, and many other things.  My goal is to present an overview of some of these systems, introduce Omega, the new cluster-manager tool we are building, and present some of the challenges that we're facing along the way.  Many of these challenges represent research opportunities, so I'll spend the majority of the time discussing those.
+    The Fast Fourier Transform (FFT) is one of the most fundamental numerical algorithms. It computes the Discrete Fourier Transform (DFT) of an n-dimensional signal in O(n log n) time. The algorithm plays an important role in many areas. It is not known whether its running time can be improved.
+However, in many applications, most of the Fourier coefficients of a signal are "small" or equal to zero, i.e., the output of the transform is (approximately) sparse. In this case, it is known that one can compute the set of non-zero
+coefficients faster than in O(n log n) time.
+In this talk, I will describe a set of efficient algorithms for sparse Fourier Transform. One of the algorithms has the running time of O(k log n), where k is the number of non-zero Fourier coefficients of the signal.
+This improves over the runtime of the FFT for any k = o(n). If time allows, I will also describe some of the applications, to spectrum sensing and GPS locking, as well as mention a few outstanding open problems. The talk will cover the material from the joint papers with Fadel Adib, Badih Ghazi, Haitham Hassanieh, Dina Katabi, Eric Price and Lixin Shi. The papers are available at
+    <a href="http://groups.csail.mit.edu/netmit/sFFT/">http://groups.csail.mit.edu/netmit/sFFT/.</a>
 </div>
 <div class="speaker">
-<span class="name">John Wilkes, Google</span>
-John Wilkes has been at Google since 2008, where he is working on cluster management and infrastructure services. Before that, he spent a long time at HP Labs, becoming an HP and ACM Fellow in 2002.  He is interested in far too many aspects of distributed systems, but a recurring theme has been technologies that allow systems to manage themselves. In his spare time he continues, stubbornly, trying to learn how to blow glass. 
-<a href="http://e-wilkes.com/john">John's Personal Website</a>
+    <span class="name">Piotr Indyk</span>
+     is a Professor of Electrical Engineering and Computer Science at MIT. He joined MIT in 2000, after earning PhD from Stanford University. Earlier, he received Magister degree from Uniwersytet Warszawski in 1995.
+Piotr's research interests lie in the design and analysis of efficient algorithms. Specific interests include: high-dimensional computational geometry, sketching and streaming algorithms, sparse recovery and compressive
+sensing. He has received the Sloan Fellowship (2003), the Packard Fellowship (2003) and the Simons Investigator Award (2013). His work on sparse Fourier sampling has been named to Technology Review "TR10" in 2012, while his work on locality-sensitive hashing has received the 2012 ACM Kanellakis Theory and Practice Award.
 </div>
-<div class="moderator">JHUISI</div>
+<div class="moderator">Vladimir Braverman</div>
 </div>
+
+
+
+
 <div class="seperator2">Attended</div>
 
 <div class="group">
