@@ -88,8 +88,23 @@ $header = "Social network evaluating";
     </ol>
 
 </div>
-<div>
+<div class="section">
+    <div class="sectionText">
+        Source Code
+    </div>
+    <p/>
+    <a href="https://github.com/jokerfeng2010/spcProject" target="_blank">https://github.com/jokerfeng2010/spcProject</a>
+</div>
 
+<div class="section">
+    <div class="sectionText">
+        Languages
+    </div>
+    <p/>
+    <span class="language">Java</span>,
+    <span class="language">Perl</span>,
+    <span class="language">Bash</span>,
+    <span class="language">SQL</span>
 </div>
 
 </body>

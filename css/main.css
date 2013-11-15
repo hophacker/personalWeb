@@ -1,3 +1,34 @@
-.project .title{
+#projectExperience .project .title{
     display:inline;
 }
+.language, .name, .string{
+    font-size: 20px;
+    color:  #196EEF;
+}
+.name {
+    font-style: italic;
+    font-weight: bold;
+}
+/*
+public static $color = array(
+"muse" => "#196EEF",
+"happy" => "#FFB801",
+"life" => "#009855",
+"passion" => "#DC4632",
+"header" => "#009855",
+"section" => "#DC4632",
+"secsec" => "#009855",
+"label" => "#009855"
+);
+public static $size = array(
+"small" => "12px",
+"Small" => "16px",
+"SMALL" => "20px",
+"big" => "24px",
+"Big" => "28px",
+"BIG" => "32px",
+"large" => "40x",
+"Large" => "60px",
+"LARGE" => "80px"
+);
+*/

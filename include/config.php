@@ -6,3 +6,6 @@
  * Time: 9:17 PM
  */
 
+define("web_root", $_SERVER["HTTP_HOST"] . "/personalWeb");
+$web_root = $_SERVER["HTTP_HOST"] . "/personalWeb";
+$web_name = "personalWeb";

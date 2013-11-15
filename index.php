@@ -41,21 +41,6 @@ require_once("include/resume.php")
             padding-bottom: 5px;
         }
 
-        .language {
-            font-size: <?=style::$size['SMALL']?>;
-            color: <?=style::$color['muse']?>;
-        }
-        .name {
-            font-size: <?=style::$size['SMALL']?>;
-            color: <?=style::$color['muse']?>;
-            font-style: italic;
-            font-weight: bold;
-        }
-
-        .string {
-            font-size: <?=style::$size['SMALL']?>;
-            color: <?=style::$color['muse']?>;
-        }
     </style>
     <?style::link("css/main.css")?>
     <script src="script/jquery-1.10.2.js"></script>
@@ -103,17 +88,12 @@ require_once("include/resume.php")
 <div id="researchinterest" class="section">
     <div class="sectionText">Research Interests</div>
     <div>
-        My research interests include systems, database, security, cryptography. I have finished or currently work on a variety of projects, including:
+        My research interests include systems, database, security, cryptography.
     </div>
 </div>
-<div id="project" class="section">
-    <div class="sectionText">
-        Projects
-    </div>
-    <?php
-    resume::projects();
-    ?>
-</div>
+
+<?=resume::projects()?>
+
 <div id="hobby" class="section">
     <div class="sectionText">
         Hobbies

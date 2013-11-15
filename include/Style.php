@@ -5,7 +5,8 @@
  * Date: 11/10/13
  * Time: 9:29 PM
  */
-class Style
+require_once("config.php");
+class style
 {
     public static $color = array(
         "muse" => "#196EEF",
@@ -62,5 +63,8 @@ EOF;
         self::headerClass();
         self::sectionClass();
         self::secsecClass();
+    }
+    public static function link($url){
+        print  "<link href='http://" . web_root . "/$url' type='text/css' rel='stylesheet'/>\n";
     }
 }

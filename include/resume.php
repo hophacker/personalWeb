@@ -6,13 +6,14 @@
  * Time: 8:30 PM
  */
 
+require_once("config.php");
 class resume {
     public static $projects = array(
-        array("title" => "Distributed social network evaluator",
+        array("title" => "Distributed social network evaluating",
             "people" => "Jie Feng",
             "time" => "2013.9-Now",
             "abstract" => "",
-            "detailUrl" => ""
+            "detailUrl" =>  "html/projects/distributed-social-network-evaluating/index.php"
         ),
         array("title" => "PHP Driven Databse",
             "people" => "Jie Feng, Frank Wang, Sungjin chung, Scott Zhang",
@@ -64,14 +65,24 @@ class resume {
         )
     );
     public static function projects(){
-        foreach (self::$projects as $p){
-            print  <<<EOF
-<div class='project'>
-    <div class="title">{$p["title"]}</div>
-    <a href='{$p["detailUtl"]}'>Detail</a>
-</div>\n
+        global $web_name;
+        $out =
+<<<EOF
+<div id="projectExperience" class="section">
+    <div class="sectionText">
+        Projects
+    </div>
 EOF;
-
+        foreach (self::$projects as $p){
+            $out .=
+<<<EOF
+    <div class="project">
+        <div class="title">{$p["title"]}</div>
+        <a href="/$web_name/{$p["detailUrl"]}">Detail</a>
+    </div>\n
+EOF;
         }
+        $out .= "</div>\n";
+        print $out;
     }
 }
