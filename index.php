@@ -97,6 +97,9 @@ require_once("include/resume.php")
             <a href="files/Resume.pdf" target="_blank" id="resume"> Resume </a>
         </li>
         <li>
+            I'm a big fan of <a href="https://github.com/jokerfeng2010" target="_blank" id="github"> Github </a>.
+        </li>
+        <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
         </li>
         <li>

@@ -9,7 +9,7 @@
     font-style: italic;
     font-weight: bold;
 }
-#resume{
+#resume, #github{
     color: #009855;
     font-weight: bold;
     text-decoration-color: red;
