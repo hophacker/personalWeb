@@ -93,6 +93,7 @@ require_once("include/resume.php")
         Links
     </div>
     <ul>
+
         <li>
             <a href="files/Resume.pdf" target="_blank" id="resume"> Resume </a>
         </li>
