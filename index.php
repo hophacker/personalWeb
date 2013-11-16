@@ -126,8 +126,8 @@ require_once("include/resume.php")
                 Damn, It's cool! Besides, it's powerful too.
             </li>
             <li>
-                Hacking web stuff without <span class="language">PHP</span> is really not fun at all... I'm writing this
-                piece of code with <span class="language">PHP</span> now.
+                Hacking web stuff without <span class="language">PHP</span> is really not fun at all...
+                This website is just built with <span class="language">PHP</span> now.
             </li>
         </ul>
         I define my life task be to extract value from data and to protect data.
