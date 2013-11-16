@@ -86,6 +86,32 @@ require_once("include/resume.php")
         <img src="" alt="Am I handsome?"/>
     </div>
 </div>
+
+
+<div id="links" class="section">
+    <div class="sectionText">
+        Links
+    </div>
+    <ul>
+        <li>
+            <a href="files/Resume.pdf" target="_blank" id="resume"> Resume </a>
+        </li>
+        <li>
+            <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
+        </li>
+        <li>
+            <a href="html/modern-cryptography-homework.html"> Homework Modern Cryptography</a>
+        </li>
+        <li>
+            <a href="html/TooDoList.html"> Jie's Too-Doo List</a>
+        </li>
+        <li>
+            <a href="html/Courses%20of%20Fall%20Semester,%202013.html"> Courses of Fall Semester 2013</a>
+        </li>
+    </ul>
+</div>
+
+
 <div id="researchinterest" class="section">
     <div class="sectionText">Research Interests</div>
     <div>
@@ -138,30 +164,5 @@ require_once("include/resume.php")
 <br/>
 
 
-<div id="links" class="section">
-    <div class="sectionText">
-        Links
-    </div>
-    <ul>
-        <li>
-            <a href="html/welcome.html"> Welcome </a>
-        </li>
-        <li>
-            <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
-        </li>
-        <li>
-            <a href="html/modern-cryptography-homework.html"> Homework Modern Cryptography</a>
-        </li>
-        <li>
-            <a href="html/TooDoList.html"> Jie's Too-Doo List</a>
-        </li>
-        <li>
-            <a href="html/personal-info.html"> Personal Information </a>
-        </li>
-        <li>
-            <a href="html/Courses%20of%20Fall%20Semester,%202013.html"> Courses of Fall Semester 2013</a>
-        </li>
-    </ul>
-</div>
 </body>
 </html>
