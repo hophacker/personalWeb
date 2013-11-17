@@ -41,7 +41,14 @@ require_once("include/resume.php")
         #textinfo ul li {
             padding-bottom: 5px;
         }
-
+        #links ul{
+            width : 780px;
+            display: inline-block;
+        }
+        #links ul li{
+            width: 390px;
+            float: left;
+        }
     </style>
     <?=style::link("css/main.css")?>
     <script src="script/jquery-1.10.2.js"></script>
@@ -93,19 +100,18 @@ require_once("include/resume.php")
         Links
     </div>
     <ul>
-
         <li>
-            <a href="files/Resume.pdf" target="_blank" id="resume"> Resume </a>
+            John's <a href="files/Resume.pdf" target="_blank" class="johnslink" id="resume"> Resume </a>
         </li>
         <li>
-            I'm a big fan of <a href="https://github.com/jokerfeng2010" target="_blank" id="github"> Github </a>.
+            John's <a href="https://github.com/jokerfeng2010" target="_blank" class="johnslink" id="github"> Github </a>.
         </li>
         <li>
-            <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" id="youtube">
-                John's guitar show!
-            </a>.
+            John's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="johnslink" id="youtube"> guitar show! </a>.
         </li>
-
+        <li>
+            John's <a href="html/TooDoList.html" class="johnslink">Too-Doo List</a>
+        </li>
         <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
         </li>
@@ -113,9 +119,6 @@ require_once("include/resume.php")
             <a href="html/modern-cryptography-homework.html"> Homework Modern Cryptography</a>
         </li>
 
-        <li>
-            <a href="html/TooDoList.html"> Jie's Too-Doo List</a>
-        </li>
         <li>
             <a href="html/Courses%20of%20Fall%20Semester,%202013.html"> Courses of Fall Semester 2013</a>
         </li>
