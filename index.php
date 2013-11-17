@@ -101,6 +101,11 @@ require_once("include/resume.php")
             I'm a big fan of <a href="https://github.com/jokerfeng2010" target="_blank" id="github"> Github </a>.
         </li>
         <li>
+            <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" id="youtube">
+                John's guitar show!
+            </a>.
+        </li>
+        <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
         </li>
         <li>
