@@ -105,6 +105,7 @@ require_once("include/resume.php")
                 John's guitar show!
             </a>.
         </li>
+
         <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
         </li>
