@@ -74,11 +74,13 @@ class resume {
     </div>
 EOF;
         foreach (self::$projects as $p){
+            if (!empty($p["detailUrl"]))  $detail =  "<a href='{$p['detailUrl']}'>Detail</a>";
+            else $detail = "";
             $out .=
 <<<EOF
     <div class="project">
         <div class="title">{$p["title"]}</div>
-        <a href="{$p["detailUrl"]}">Detail</a>
+        $detail
     </div>\n
 EOF;
         }
