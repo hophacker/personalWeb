@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df47bd57-7bf3-4249-9481-1c8d6e26beec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/resume.php" afterPath="$PROJECT_DIR$/include/resume.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personalWeb.iws" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="420" selection-end="420" vertical-scroll-proportion="0.40889525" vertical-offset="0" max-vertical-offset="3743">
+            <state line="164" column="81" selection-start="5383" selection-end="5383" vertical-scroll-proportion="0.20946915" vertical-offset="2970" max-vertical-offset="3743">
               <folding />
             </state>
           </provider>
@@ -47,7 +48,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="855">
+            <state line="16" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -139,10 +140,10 @@
         <option value="$PROJECT_DIR$/html/projects/Distributed social network evaluator/index.php" />
         <option value="$PROJECT_DIR$/include/style.php" />
         <option value="$PROJECT_DIR$/include/config.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/include/resume.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -499,7 +500,11 @@
       <created>1384825866177</created>
       <updated>1384825866177</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="hi there">
+      <created>1384826145216</created>
+      <updated>1384826145216</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -586,20 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="71" selection-end="71" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/style.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="20" selection-start="217" selection-end="217" vertical-scroll-proportion="-5.035714" vertical-offset="87" max-vertical-offset="1444">
@@ -637,9 +628,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="71" selection-end="71" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="420" selection-end="420" vertical-scroll-proportion="0.40889525" vertical-offset="0" max-vertical-offset="3743">
+        <state line="164" column="81" selection-start="5383" selection-end="5383" vertical-scroll-proportion="0.20946915" vertical-offset="2970" max-vertical-offset="3743">
           <folding />
         </state>
       </provider>

@@ -179,9 +179,9 @@ require_once("include/resume.php")
         Education
     </div>
     <ul>
-        <li>M.S. in Security Informatics, The <a href="http://www.jhu.edu/">Johns Hopkins University</a> , 2013-</li>
-        <li>B.S. in Software Engineering, <a href="http://www.suda.edu.cn/"></a>, 2009-2013</li>
-        <li><a href="http://www.yzzx.org/">Yangzhou High School of Jiangsu Province</a>, 2006-2009</li>
+        <li>M.S. in Security Informatics, The <a href="http://www.jhu.edu/" class="school">Johns Hopkins University</a> , 2013-</li>
+        <li>B.E. in Software Engineering, <a href="http://www.suda.edu.cn/" class="school">Soochow University(China)</a>, 2009-2013</li>
+        <li><a href="http://www.yzzx.org/" class="school">Yangzhou High School of Jiangsu Province</a>, 2006-2009</li>
     </ul>
 </div>
 
