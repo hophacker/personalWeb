@@ -174,6 +174,16 @@ require_once("include/resume.php")
     </div>
 </div>
 
+<div id="education" class="section">
+    <div class="sectionText">
+        Education
+    </div>
+    <ul>
+        <li>M.S. in Security Informatics, The <a href="http://www.jhu.edu/">Johns Hopkins University</a> , 2013-</li>
+        <li>B.S. in Software Engineering, <a href="http://www.suda.edu.cn/"></a>, 2009-2013</li>
+        <li><a href="http://www.yzzx.org/">Yangzhou High School of Jiangsu Province</a>, 2006-2009</li>
+    </ul>
+</div>
 
 <br/>
 
