@@ -70,7 +70,7 @@ require_once("include/resume.php")
 </head>
 <body>
 <div id="name" class="headerText">
-    Jie(John) Feng
+    Jie(Jay) Feng
 </div>
 
 <div id="info" class="section">
@@ -101,16 +101,16 @@ require_once("include/resume.php")
     </div>
     <ul>
         <li>
-            John's <a href="files/Resume.pdf" target="_blank" class="johnslink" id="resume"> Resume </a>
+            Jay's <a href="files/Resume.pdf" target="_blank" class="johnslink" id="resume"> Resume </a>
         </li>
         <li>
-            John's <a href="https://github.com/jokerfeng2010" target="_blank" class="johnslink" id="github"> Github </a>.
+            Jay's <a href="https://github.com/jokerfeng2010" target="_blank" class="johnslink" id="github"> Github </a>.
         </li>
         <li>
-            John's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="johnslink" id="youtube"> guitar show! </a>.
+            Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="johnslink" id="youtube"> guitar show! </a>.
         </li>
         <li>
-            John's <a href="html/TooDoList.html" class="johnslink">Too-Doo List</a>
+            Jay's <a href="html/TooDoList.html" class="johnslink">Too-Doo List</a>
         </li>
         <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
