@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df47bd57-7bf3-4249-9481-1c8d6e26beec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture10.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture11.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture12.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture13.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture14.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture15.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture16.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture17.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/Lecture18.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/Resume.pdf" afterPath="$PROJECT_DIR$/files/Resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/pdf/crypto/10-18.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personalWeb.iws" />
@@ -39,7 +29,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="12" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.95579267" vertical-offset="1501" max-vertical-offset="3743">
+            <state line="82" column="1" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.14481707" vertical-offset="1463" max-vertical-offset="3743">
               <folding />
             </state>
           </provider>
@@ -534,13 +524,18 @@
       <created>1384826345040</created>
       <updated>1384826345040</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="hi there">
+      <created>1384928668151</created>
+      <updated>1384928668151</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1252" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15579228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -558,7 +553,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.183755" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15579228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -674,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="12" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.95579267" vertical-offset="1501" max-vertical-offset="3743">
+        <state line="82" column="1" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.14481707" vertical-offset="1463" max-vertical-offset="3743">
           <folding />
         </state>
       </provider>
