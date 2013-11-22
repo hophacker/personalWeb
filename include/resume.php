@@ -21,17 +21,17 @@ class resume {
             "abstract" =>  "",
             "detailUrl" => ""
         ),
-        array("title" => "Software vulnerability analysis.",
+        array("title" => "Software vulnerability analysis",
             "people" => "Jie Feng",
             "time" => "2013.9-Now",
             "abstract" =>  "",
             "detailUrl" => ""
         ),
-        array("title" => "Universal online examination system.",
+        array("title" => "Universal online examination system",
             "people" => "Jie Feng, Lin Chen, Fangzhou zhu",
             "time" => "2011.7-Now",
             "abstract" =>  "",
-            "detailUrl" => ""
+            "detailUrl" => "html/projects/universal-online-examination-system/index.php"
         ),
         array("title" => "Searchable cryptographic storage system design",
             "people" => "Jie Feng, Dr.Luo, Zhen Wang",

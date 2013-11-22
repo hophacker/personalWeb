@@ -127,9 +127,9 @@ require_once("include/resume.php")
 
 
 <div id="researchinterest" class="section">
-    <div class="sectionText">Research Interests</div>
+    <div class="sectionText">Interests</div>
     <div>
-        My research interests include systems, database, security, cryptography.
+        My interests include systems, web, database, security, cryptography.
     </div>
 </div>
 
@@ -161,7 +161,7 @@ require_once("include/resume.php")
             <li>The omnipotence and simplicity of <span class="language">C</span> given by
                 <span class="name">Dennis Ritchie</span> and <span class="name">Brian Kernighan</span>.
             </li>
-            <li>Perl is super convenient, you can even use sequence like <span class="string">$res=`mysql -u $DB_ID -p$DB_PW $DB_NAME -e "select ..."`</span>
+            <li>Perl is super convenient, you can even use sequence like <span class="code">$res=`mysql -u $DB_ID -p$DB_PW $DB_NAME -e "select ..."`</span>
                 to do database work and save the result without establishing connection in your code. <br/>
                 Damn, It's cool! Besides, it's powerful too.
             </li>

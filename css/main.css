@@ -4,6 +4,10 @@
 .language, .name, .string{
     font-size: 20px;
     color:  #196EEF;
+    font-weight: bold;
+}
+.code{
+    color: #009855;
 }
 .name {
     font-style: italic;
