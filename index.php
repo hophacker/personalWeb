@@ -101,16 +101,19 @@ require_once("include/resume.php")
     </div>
     <ul>
         <li>
-            Jay's <a href="files/Resume.pdf" target="_blank" class="johnslink" id="resume"> Resume </a>
+            Jay's <a href="files/Resume.pdf" target="_blank" class="jayStuff" id="resume"> Resume </a>
         </li>
         <li>
-            Jay's <a href="https://github.com/jokerfeng2010" target="_blank" class="johnslink" id="github"> Github </a>.
+            Jay's <a href="https://github.com/jokerfeng2010" target="_blank" class="jayStuff" id="github"> Github </a>.
         </li>
         <li>
-            Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="johnslink" id="youtube"> guitar show! </a>.
+            Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
         </li>
         <li>
-            Jay's <a href="html/TooDoList.html" class="johnslink">Too-Doo List</a>
+            Jay's <a href="https://github.com/jokerfeng2010/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
+        </li>
+        <li>
+            Jay's <a href="html/TooDoList.html" class="jayStuff">Too-Doo List</a>
         </li>
         <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
