@@ -173,7 +173,7 @@ require_once("include/resume.php")
                 This website is just built with <span class="language">PHP</span> now.
             </li>
         </ul>
-        I define my life task be to extract value from data and to protect data.
+        I define my life mission be to extract value from data and to protect data.
     </div>
 </div>
 
