@@ -38,7 +38,7 @@
       <file leaf-file-name="Courses of Fall Semester, 2013.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="9" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.62017804" vertical-offset="722" max-vertical-offset="1577">
+            <state line="54" column="9" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.45103857" vertical-offset="722" max-vertical-offset="1577">
               <folding />
             </state>
           </provider>
@@ -605,7 +605,11 @@
       <created>1386199637764</created>
       <updated>1386199637764</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="hi there">
+      <created>1386201618229</created>
+      <updated>1386201618229</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -735,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="9" selection-start="2879" selection-end="2879" vertical-scroll-proportion="0.62017804" vertical-offset="722" max-vertical-offset="1577">
+        <state line="54" column="9" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.45103857" vertical-offset="722" max-vertical-offset="1577">
           <folding />
         </state>
       </provider>
