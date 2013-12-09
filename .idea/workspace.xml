@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df47bd57-7bf3-4249-9481-1c8d6e26beec" name="Default" comment="">
+    <list default="true" id="df47bd57-7bf3-4249-9481-1c8d6e26beec" name="Default" comment="hi there">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html" afterPath="$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php" afterPath="$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personalWeb.iws" />
@@ -35,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Courses of Fall Semester, 2013.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Courses of Fall Semester, 2013.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.5821114" vertical-offset="533" max-vertical-offset="1215">
+            <state line="62" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="-17.791666" vertical-offset="503" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="8" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1275">
+            <state line="73" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.76258993" vertical-offset="565" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -101,10 +102,10 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/include/resume.php" />
         <option value="$PROJECT_DIR$/html/projects/projects.css" />
-        <option value="$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html" />
+        <option value="$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php" />
       </list>
     </option>
   </component>
@@ -588,7 +589,11 @@
       <created>1386548269139</created>
       <updated>1386548269139</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="hi there">
+      <created>1386548288581</created>
+      <updated>1386548288581</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="8" selection-start="2684" selection-end="2684" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/projects/projects.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="14" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
@@ -718,7 +716,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.5821114" vertical-offset="533" max-vertical-offset="1215">
+        <state line="62" column="0" selection-start="2881" selection-end="2881" vertical-scroll-proportion="-17.791666" vertical-offset="503" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/projects/universal-online-examination-system/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.76258993" vertical-offset="565" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>

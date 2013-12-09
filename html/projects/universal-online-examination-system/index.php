@@ -71,7 +71,6 @@ $header = "Universal online examination system";
         <li><span class="language">JQuery</span></li>
         <li><span class="language">Html</span></li>
         <li><span class="language">Css</span></li>
-
     </ul>
 </div>
 
