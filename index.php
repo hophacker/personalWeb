@@ -16,23 +16,19 @@ require_once("include/resume.php")
             margin: 10px auto;
             font-size: 18px;
         }
-
         #info {
             height: 275px;
         }
-
         #textinfo {
             width: 400px;
             float: left;
         }
-
         #photoinfo {
             float: right;
             height: 225px;
             margin-top: 0;
             padding-right: 30px;
         }
-
         #photoinfo img {
             margin: 20px 0;
             height: inherit;
@@ -48,6 +44,11 @@ require_once("include/resume.php")
         #links ul li{
             width: 390px;
             float: left;
+        }
+        #socialNetwork{
+            text-align: center;
+            width: 800px;
+            margin: 10px auto;
         }
     </style>
     <?=style::link("css/main.css")?>
@@ -71,6 +72,14 @@ require_once("include/resume.php")
 <body>
 <div id="name" class="headerText">
     Jie(Jay) Feng
+
+</div>
+<div id="socialNetwork">
+  <span class="twitter"><a href="https://twitter.com/VonJ2" title="jie/twitter" rel="me"><img alt="Twitter" src="image/SocialNetwork/twitter-48.png" /></a></span>
+  <span class="facebook"><a href="https://www.facebook.com/jie.von.5" title="jie/facebook" rel="me"><img alt="Facebook" src="image/SocialNetwork/facebook-48.png" /></a></span>
+  <span class="plus"><a href="https://plus.google.com/108552422334038717429/posts" title="jie/plus" rel="author me"><img alt="Google Plus" src="image/SocialNetwork/plus-48.png" /></a></span>
+  <span class="linkedin"><a href="http://www.linkedin.com/pub/jie-feng/7a/a2a/194" title="jie/linkedin" rel="me"><img alt="LinkedIn" src="image/SocialNetwork/linkedin-48.png" /></a></span>
+  <span class="github"><a href="https://github.com/jokerfeng2010" title="jie/github" rel="me"><img alt="GitHub" src="image/SocialNetwork/github-48.png" /></a></span>
 </div>
 
 <div id="info" class="section">
