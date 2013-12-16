@@ -50,6 +50,9 @@ require_once("include/resume.php")
             width: 800px;
             margin: 10px auto;
         }
+        #socialNetwork img{
+            width: 30px;
+        }
     </style>
     <?=style::link("css/main.css")?>
     <script src="script/jquery-1.10.2.js"></script>
@@ -114,9 +117,6 @@ require_once("include/resume.php")
         </li>
         <li>
             Jay's <a href="files/Resume.pdf" target="_blank" class="jayStuff" id="resume"> Resume </a>
-        </li>
-        <li>
-            Jay's <a href="https://github.com/jokerfeng2010" target="_blank" class="jayStuff" id="github"> Github </a>.
         </li>
         <li>
             Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
