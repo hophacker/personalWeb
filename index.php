@@ -115,9 +115,11 @@ require_once("include/resume.php")
         <li>
             <a href="TechMakeLifeEasy/index.php" target="_blank" class="jayStuff" id="TechMakeLifeEaxy"> Tech shall make life easier!</a>
         </li>
+        <!--
         <li>
             Jay's <a href="files/Resume.pdf" target="_blank" class="jayStuff" id="resume"> Resume </a>
         </li>
+        -->
         <li>
             Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
         </li>
