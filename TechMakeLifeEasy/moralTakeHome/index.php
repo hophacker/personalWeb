@@ -74,7 +74,7 @@ require_once("../../include/config.php");
         </li>
         <li>
             Then you need to install <b>Tex/Latex</b>.
-            There is one line code of installing <b>Tex/Latex</b> on ubuntu which you can find on my <a href="https://github.com/yangda/Jie/blob/master/install.sh">Github</a>
+            There is one line code of installing <b>Tex/Latex</b> on ubuntu which you can find on my <a href="https://github.com/hophacker/Jie/blob/master/install.sh">Github</a>
         </li>
         <li>
             This simple Latex template below explains how to accomplish all the requirements in a nutshel.

@@ -82,7 +82,7 @@ require_once("include/resume.php")
   <span class="facebook"><a href="https://www.facebook.com/jie.von.5" title="jie/facebook" rel="me"><img alt="Facebook" src="image/SocialNetwork/facebook-48.png" /></a></span>
   <span class="plus"><a href="https://plus.google.com/108552422334038717429/posts" title="jie/plus" rel="author me"><img alt="Google Plus" src="image/SocialNetwork/plus-48.png" /></a></span>
   <span class="linkedin"><a href="http://www.linkedin.com/pub/jie-feng/7a/a2a/194" title="jie/linkedin" rel="me"><img alt="LinkedIn" src="image/SocialNetwork/linkedin-48.png" /></a></span>
-  <span class="github"><a href="https://github.com/yangda" title="jie/github" rel="me"><img alt="GitHub" src="image/SocialNetwork/github-48.png" /></a></span>
+  <span class="github"><a href="https://github.com/hophacker" title="jie/github" rel="me"><img alt="GitHub" src="image/SocialNetwork/github-48.png" /></a></span>
 </div>
 
 <div id="info" class="section">
@@ -98,7 +98,7 @@ require_once("include/resume.php")
             <li>Marylander, Room 736<br/> 3501, Saint Paul Street 3501<br/> Baltimore, MD 21218-2682</li>
             <li>Phone &ndash; (443) 996-2046</li>
             <li>JHU Email &ndash; <a class="email" href="mailto:jfeng17@jhu.edu">jfeng17@jhu.edu</a></li>
-            <li>Gmail &ndash; <a class="email" href="mailto:yangda@gmail.edu">jokerfeng2010@gmail.com</a></li>
+            <li>Gmail &ndash; <a class="email" href="mailto:jiefeng.hopkins@gmail.edu">jiefeng.hopkins@gmail.com</a></li>
         </ul>
     </div>
     <div id="photoinfo">
@@ -124,7 +124,7 @@ require_once("include/resume.php")
             Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
         </li>
         <li>
-            Jay's <a href="https://github.com/yangda/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
+            Jay's <a href="https://github.com/hophacker/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
         </li>
         <li>
             Jay's <a href="html/TooDoList.html" class="jayStuff">Too-Doo List</a>

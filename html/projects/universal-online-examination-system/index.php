@@ -41,7 +41,7 @@ $header = "Universal online examination system";
         Source Code
     </div>
     <p/>
-    <a href="https://github.com/yangda/universal-online-exam" target="_blank">https://github.com/jokerfeng2010/universal-online-exam</a>
+    <a href="https://github.com/hophacker/universal-online-exam" target="_blank">https://github.com/jokerfeng2010/universal-online-exam</a>
 </div>
 <div class="section">
     <div class="sectionText">
