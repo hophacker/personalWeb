@@ -164,14 +164,16 @@ require_once("include/resume.php")
                     <li><a href="http://codeforces.com/">Codeforces</a></li>
                     <li><a href="http://www.hackerrank.com">Hackerrank</a></li>
                 </ul>
-            </li>
-            <li>Perl is super convenient, you can even use sequence like <span class="code">$res=`mysql -u $DB_ID -p$DB_PW $DB_NAME -e "select ..."`</span>
-                to do database work and save the result without establishing connection in your code. <br/>
-                Damn, It's cool! Besides, it's powerful too.
+                Besides, I'm currently participating <a href="https://code.google.com/codejam"><b>Google Codejam 2014</b></a>
             </li>
             <li>
-                Hacking web stuff without <span class="language">PHP</span> is really not fun at all...
-                This website is just built with <span class="language">PHP</span> now.
+                Taking different hackthons for fun, like <a href="http://hophacks.com/">Hophacks</a>. I'm also registered for <a href="http://www.hackduke.org">hackduke</a>,
+                which will be held in 29th, March.
+            </li>
+            <li>
+                Building some small Apps, maintaining some websites(including this), servers.
+            </li>
+            <li>
             </li>
         </ul>
         I define my life mission be to extract value from data and to protect data.
