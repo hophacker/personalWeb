@@ -150,7 +150,7 @@ require_once("include/resume.php")
     </div>
 </div>
 
-<?= resume::projects() ?>
+<?//= resume::projects() ?>
 
 <div id="hobby" class="section">
     <div class="sectionText">
@@ -174,9 +174,15 @@ require_once("include/resume.php")
                 Building some small Apps, maintaining some websites(including this), servers.
             </li>
             <li>
+                Hacking some new stuff for fun, now I'm playing with Laravel framework and MongoDB.
+            </li>
+            <li>
+                Travelling. I have traveled to some cities in both east cost and west cost, and I want to travel more.
+            </li>
+            <li>
+                Play Warcraft 3, Dota with my roommates.
             </li>
         </ul>
-        I define my life mission be to extract value from data and to protect data.
     </div>
 </div>
 
