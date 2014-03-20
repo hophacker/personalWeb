@@ -167,6 +167,9 @@ require_once("include/resume.php")
                 Besides, I'm currently participating <a href="https://code.google.com/codejam"><b>Google Codejam 2014</b></a>
             </li>
             <li>
+                Killing time on <a hre="https://www.quora.com/Jie-Feng-7">Quora</a>
+            </li>
+            <li>
                 Taking different hackthons for fun, like <a href="http://hophacks.com/">Hophacks</a>. I'm also registered for <a href="http://www.hackduke.org">hackduke</a>,
                 which will be held in 29th, March.
             </li>
