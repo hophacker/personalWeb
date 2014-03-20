@@ -156,27 +156,14 @@ require_once("include/resume.php")
     <div class="sectionText">
         Hobbies
     </div>
-    <div>
-        I definitely love programming and it's always my pleasure to try every aspect of it.<br/>
-        To date, I've programmed with
-        <span class="language">Pascal,</span>
-        <span class="language">C,</span>
-        <span class="language">Bash,</span>
-        <span class="language">C++,</span>
-        <span class="language">Java,</span>
-        <span class="language">C#,</span>
-        <span class="language">PHP,</span>
-        <span class="language">Javascript,</span>
-        <span class="language">Python,</span>
-        <span class="language">Lisp,</span>
-        <span class="language">Perl</span>(Listed in time sequence,pascal is my first programming language which I first
-        played in junior school). <br/>
-        The list is growing... <br/>
-        My most loved among them are <span class="language">C</span>, <span class="language">Perl</span> and <span
-            class="language">PHP</span>, the reasons are:
         <ul>
-            <li>The omnipotence and simplicity of <span class="language">C</span> given by
-                <span class="name">Dennis Ritchie</span> and <span class="name">Brian Kernighan</span>.
+            <li>
+                Hacking algorithm challenges and algorithm contests. I prefer algorithm contests from the following platforms:
+                <ul>
+                    <li><a href="http://www.topcoder.com/">Topcoder</a></li>
+                    <li><a href="http://codeforces.com/">Codeforces</a></li>
+                    <li><a href="http://www.hackerrank.com">Hackerrank</a></li>
+                </ul>
             </li>
             <li>Perl is super convenient, you can even use sequence like <span class="code">$res=`mysql -u $DB_ID -p$DB_PW $DB_NAME -e "select ..."`</span>
                 to do database work and save the result without establishing connection in your code. <br/>

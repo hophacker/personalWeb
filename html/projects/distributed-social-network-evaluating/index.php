@@ -93,7 +93,7 @@ $header = "Social network evaluating";
         Source Code
     </div>
     <p/>
-    <a href="https://github.com/jokerfeng2010/spcProject" target="_blank">https://github.com/jokerfeng2010/spcProject</a>
+    <a href="https://github.com/hophacker/evaluateSN" target="_blank">https://github.com/hophacker/evaluateSN</a>
 </div>
 
 <div class="section">
