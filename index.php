@@ -74,7 +74,7 @@ require_once("include/resume.php")
 </head>
 <body>
 <div id="name" class="headerText">
-    Jie(John) Feng
+    Jie(Jay) Feng
 </div>
 <div id="socialNetwork">
   <span class="twitter"><a href="https://twitter.com/VonJ2" title="jie/twitter" rel="me"><img alt="Twitter" src="image/SocialNetwork/twitter-48.png" /></a></span>
