@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df47bd57-7bf3-4249-9481-1c8d6e26beec" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jie3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jie4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/jie6.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image/jie5.jpg" afterPath="$PROJECT_DIR$/image/jie2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,9 +33,34 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="8" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.72157437" vertical-offset="645" max-vertical-offset="3180">
-              <folding />
+            <state line="113" column="11" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.3164557" vertical-offset="1470" max-vertical-offset="3180">
+              <folding>
+                <marker date="1400307651002" expanded="true" signature="3801:3953" placeholder="..." />
+                <marker date="1400307651002" expanded="true" signature="3967:4106" placeholder="..." />
+                <marker date="1400307651002" expanded="true" signature="4114:4277" placeholder="..." />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jie0.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/jie0.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jie1.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/jie1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jie2.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/jie2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -54,41 +83,9 @@
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TechMakeLifeEasy/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="870">
-              <folding>
-                <marker date="1386619596514" expanded="true" signature="107:194" placeholder="..." />
-                <marker date="1386619596514" expanded="true" signature="114:194" placeholder="..." />
-                <marker date="1386619596514" expanded="true" signature="970:1004" placeholder="..." />
-                <marker date="1386619596514" expanded="true" signature="983:1004" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TechMakeLifeEasy/moralTakeHome/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="26" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="2145">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Courses of Fall Semester, 2013.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Courses of Fall Semester, 2013.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="8" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="499" max-vertical-offset="1185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -142,10 +139,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5.3-1ubuntu2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1537" />
-    <option name="height" value="905" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -205,38 +202,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personalWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personalWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personalWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="personalWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocialNetwork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -245,14 +210,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="coverage" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="/usr/bin" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -619,14 +584,17 @@
       <created>1396150126550</created>
       <updated>1396150126550</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="hi there">
+      <created>1396150173724</created>
+      <updated>1396150173724</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1537" height="905" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15579228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -643,6 +611,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1268556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15579228" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -664,31 +633,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image/jie0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="4" selection-start="5089" selection-end="5089" vertical-scroll-proportion="0.0" vertical-offset="3420" max-vertical-offset="6555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/projects/distributed-social-network-evaluating/master-slave.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="90" selection-start="431" selection-end="431" vertical-scroll-proportion="0.20212767" vertical-offset="57" max-vertical-offset="1729" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="247" />
@@ -708,10 +652,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="870">
           <folding>
-            <marker date="1386619596514" expanded="true" signature="107:194" placeholder="..." />
-            <marker date="1386619596514" expanded="true" signature="114:194" placeholder="..." />
-            <marker date="1386619596514" expanded="true" signature="970:1004" placeholder="..." />
-            <marker date="1386619596514" expanded="true" signature="983:1004" placeholder="..." />
+            <marker date="1386619596514" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386619596514" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386619596514" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386619596514" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -758,10 +702,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image/jie0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/jie1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/jie2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="8" selection-start="1902" selection-end="1902" vertical-scroll-proportion="0.72157437" vertical-offset="645" max-vertical-offset="3180">
-          <folding />
+        <state line="113" column="11" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.3164557" vertical-offset="1470" max-vertical-offset="3180">
+          <folding>
+            <marker date="1400307651002" expanded="true" signature="3801:3953" placeholder="..." />
+            <marker date="1400307651002" expanded="true" signature="3967:4106" placeholder="..." />
+            <marker date="1400307651002" expanded="true" signature="4114:4277" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

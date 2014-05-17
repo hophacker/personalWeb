@@ -58,7 +58,7 @@ require_once("include/resume.php")
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
-        var imageTotal = 7;
+        var imageTotal = 3;
         function changeImage() {
             $("#photoinfo img").prop("src", "image/jie" + imageNum + ".jpg");
             imageNum = (imageNum + 1) % imageTotal;
@@ -119,25 +119,25 @@ require_once("include/resume.php")
             Jay's <a href="files/Resume.pdf" target="_blank" class="jayStuff" id="resume"> Resume </a>
         </li>
         -->
-        <li>
+<!--        <li>
             Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
-        </li>
+        </li>-->
         <li>
             Jay's <a href="https://github.com/hophacker/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
         </li>
-        <li>
+<!--        <li>
             Jay's <a href="html/TooDoList.html" class="jayStuff">Too-Doo List</a>
-        </li>
-        <li>
+        </li>-->
+<!--        <li>
             <a href="html/seminarsAndSessions.html"> Sessions &amp; Seminars</a>
-        </li>
-        <li>
+        </li>-->
+<!--        <li>
             <a href="html/modern-cryptography-homework.html"> Homework Modern Cryptography</a>
-        </li>
+        </li>-->
 
-        <li>
+<!--        <li>
             <a href="html/Courses%20of%20Fall%20Semester,%202013.html"> Courses of Fall Semester 2013</a>
-        </li>
+        </li>-->
     </ul>
 </div>
 
