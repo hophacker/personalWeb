@@ -74,7 +74,7 @@ require_once("include/resume.php")
 </head>
 <body>
 <div id="name" class="headerText">
-    Jie(Jay) Feng
+    Jie Feng
 </div>
 <div id="socialNetwork">
   <span class="twitter"><a href="https://twitter.com/VonJ2" title="jie/twitter" rel="me"><img alt="Twitter" src="image/SocialNetwork/twitter-48.png" /></a></span>
@@ -123,7 +123,7 @@ require_once("include/resume.php")
             Jay's <a href="http://www.youtube.com/watch?v=ksop9eSAcDs" target="_blank" class="jayStuff" id="youtube"> guitar show! </a>.
         </li>-->
         <li>
-            Jay's <a href="https://github.com/hophacker/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
+            Jie's <a href="https://github.com/hophacker/Jie/blob/master/.vimrc" target="_blank" class="jayStuff" > .vimrc</a>.
         </li>
 <!--        <li>
             Jay's <a href="html/TooDoList.html" class="jayStuff">Too-Doo List</a>
