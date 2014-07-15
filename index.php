@@ -78,7 +78,7 @@ require_once("include/resume.php")
 </div>
 <div id="socialNetwork">
   <span class="twitter"><a href="https://twitter.com/VonJ2" title="jie/twitter" rel="me"><img alt="Twitter" src="image/SocialNetwork/twitter-48.png" /></a></span>
-  <span class="facebook"><a href="https://www.facebook.com/jie.von.5" title="jie/facebook" rel="me"><img alt="Facebook" src="image/SocialNetwork/facebook-48.png" /></a></span>
+  <span class="facebook"><a href="https://www.facebook.com/john.von.798" title="jie/facebook" rel="me"><img alt="Facebook" src="image/SocialNetwork/facebook-48.png" /></a></span>
   <span class="plus"><a href="https://plus.google.com/108552422334038717429/posts" title="jie/plus" rel="author me"><img alt="Google Plus" src="image/SocialNetwork/plus-48.png" /></a></span>
   <span class="linkedin"><a href="http://www.linkedin.com/pub/jie-feng/7a/a2a/194" title="jie/linkedin" rel="me"><img alt="LinkedIn" src="image/SocialNetwork/linkedin-48.png" /></a></span>
   <span class="github"><a href="https://github.com/hophacker" title="jie/github" rel="me"><img alt="GitHub" src="image/SocialNetwork/github-48.png" /></a></span>
@@ -145,6 +145,7 @@ require_once("include/resume.php")
 <div id="researchinterest" class="section">
     <div class="sectionText">Interests</div>
     <div>
+        I'm now working for a bitcoin startup, doing backend work.
         My interests include systems, web, database, security, cryptography.
     </div>
 </div>
@@ -157,32 +158,19 @@ require_once("include/resume.php")
     </div>
         <ul>
             <li>
-                Hacking algorithm challenges and algorithm contests. I prefer algorithm contests from the following platforms:
+                Hacking algorithm challenges and algorithm contests at:
                 <ul>
-                    <li><a href="http://www.topcoder.com/">Topcoder</a></li>
                     <li><a href="http://codeforces.com/">Codeforces</a></li>
+                    <li><a href="http://www.topcoder.com/">Topcoder</a></li>
+                    <li><a href="http://www.topcoder.com/">Google Code Jam</a></li>
                     <li><a href="http://www.hackerrank.com">Hackerrank</a></li>
                 </ul>
-                Besides, I'm currently participating <a href="https://code.google.com/codejam"><b>Google Codejam 2014</b></a>
             </li>
             <li>
-                Killing time on <a hre="https://www.quora.com/Jie-Feng-7">Quora</a>
-            </li>
-            <li>
-                Taking different hackthons for fun, like <a href="http://hophacks.com/">Hophacks</a>. I'm also registered for <a href="http://www.hackduke.org">hackduke</a>,
-                which will be held in 29th, March.
-            </li>
-            <li>
-                Building some small Apps, maintaining some websites(including this), servers.
-            </li>
-            <li>
-                Hacking some new stuff for fun, now I'm playing with Laravel framework and MongoDB.
+                Bitcoin. Any technical and non-technical stuff of it. BTW, Crypto-Currency is the future.
             </li>
             <li>
                 Travelling. I have traveled to some cities in both east cost and west cost, and I want to travel more.
-            </li>
-            <li>
-                Play Warcraft 3, Dota with my roommates.
             </li>
         </ul>
     </div>
