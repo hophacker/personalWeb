@@ -58,7 +58,7 @@ require_once("include/resume.php")
     <script src="script/jquery-1.10.2.js"></script>
     <script type="text/javascript">
         var imageNum = 0;
-        var imageTotal = 3;
+        var imageTotal = 4;
         function changeImage() {
             $("#photoinfo img").prop("src", "image/jie" + imageNum + ".jpg");
             imageNum = (imageNum + 1) % imageTotal;
